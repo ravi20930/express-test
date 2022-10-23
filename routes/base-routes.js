@@ -3,6 +3,6 @@ const router = express.Router();
 const {baseFunction, justAnotherFunc} = require("../controllers/base-controller");
 
 router.get('/base', baseFunction);
-// router.put('/base', justAnotherFunc);
+router.put('/gjhj', justAnotherFunc);
 
 module.exports = router;
